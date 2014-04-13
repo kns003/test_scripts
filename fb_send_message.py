@@ -1,3 +1,8 @@
+'''
+This scripts is used to send a single(common) message to all your friends in facebook
+'''
+
+
 import requests
 import urllib
 import smtplib
