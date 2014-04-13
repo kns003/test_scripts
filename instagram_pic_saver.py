@@ -5,8 +5,9 @@ Created on Apr 13, 2014
 '''
 
 '''
-This is a scripts which will save all the pics of a instagram user based on the user being
-entered in the command line argument
+This is a scripts which will save all the pics of a instagram user based on the username being
+entered in the command line argument. To get the username, go to instagram.com and select ur friend whose pics have to be saved.
+In the url 'intagram.com/<user_name>', will give you the username.
 '''
 
 import os
