@@ -18,7 +18,7 @@ from urlparse import urlparse
 
 #you can get this from 'http://instagram.com/developer/api-console/' and Authentication should be Oauth2
 #Then type anything in the Request URL. You will receive the token in the Request Block
-INSTAGRAM_ACCESS_TOKEN = '268066931.1fb234f.b3ace901202049fb96067641d0e41a7e'
+INSTAGRAM_ACCESS_TOKEN = ''
 resp = requests.get('https://api.instagram.com/v1/users/search?q='+sys.argv[1]+'&access_token='+INSTAGRAM_ACCESS_TOKEN)
 resp = json.loads(resp.text)
 if resp['data'][0]['username'] == sys.argv[1]:
